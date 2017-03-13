@@ -14,7 +14,7 @@ Make Target命令：
 azure_iothub_mqtt_demo 说明：
 	本 DEMO 移植于 azure-iot-sdk-c\iothub_client\samples\iothub_client_sample_mqtt\iothub_client_sample_mqtt.c
 	azure-iot-sdk-c原始文件地址：
-		[https://github.com/Azure/azure-iot-sdk-c](https://github.com/Azure/azure-iot-sdk-c)
+		https://github.com/Azure/azure-iot-sdk-c
 	本 DEMO 使用 azure IOThub SDK 提供的 MQTT，支持QOS = 1，使用 TLS 加密
 
 需要修改的地方：
