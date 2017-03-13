@@ -23,6 +23,14 @@ azure_iothub_mqtt_demo 说明：
 	2、certificates (MQTT证书)
 		位置 libraries/protocols/azure/certs/certs.c
 
+PC端调试软件：
+	Device Explorer Twin软件
+	下载地址：		
+		[Downloads\SetupDeviceExplorer.msi]https://github.com/Azure/azure-iot-sdks/releases
+
+azure IOThub的基本操作流程：
+	https://github.com/zhaojuntao/azure-iot-device-ecosystem/blob/master/get_started/MiCO-mxchipWiFiModule-c.md
+
 目录结构：
 	demos	
 	│
