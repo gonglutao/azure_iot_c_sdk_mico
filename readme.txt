@@ -1,6 +1,6 @@
 readme.txt
 
-azure_iot_sdk_c_mico SDK，基于 mico_A_v3.2.0 SDK
+azure_iot_c_sdk_mico SDK，基于 mico_A_v3.2.0 SDK
 	请将本 SDK 所有文件，按照下边的目录结构放到 mico_A_v3.2.0 SDK 目录中
 	注意：
 		建议不要修改文件夹名称，一旦修改，需要对应更改mk文件的名称
@@ -29,19 +29,19 @@ azure_iothub_mqtt_demo 说明：
 		└─azure				
 			│      
 			└─azure_iothub_mqtt_demo
-			        azure_config.h 					// azure 本地配置，结构体等相关定义
+			        azure_config.h 				// azure 本地配置，结构体等相关定义
 			        azure_iothub_mqtt_demo.mk 		
-			        azure_main.c 					// azure 相关的处理函数
-			        mico_app_define.h 				// azure-APP 相关信息的定义
-			        mico_config.h 					// mico 相关的定义，无需修改
-			        mico_main.c 					// application_start 函数入口
+			        azure_main.c 				// azure 相关的处理函数
+			        mico_app_define.h 			// azure-APP 相关信息的定义
+			        mico_config.h 				// mico 相关的定义，无需修改
+			        mico_main.c 				// application_start 函数入口
 	libraries	
 	│
 	└─protocols
 		│
 		└─azure				
 			│      
-			├─azure_c_shared_utility 				//调用mico接口实现azure底层接口
+			├─azure_c_shared_utility 			//调用mico接口实现azure底层接口
 			│      httpapi_mico.c
 			│      platform_mico.c
 			│      platform_mico.h
@@ -60,7 +60,7 @@ azure_iothub_mqtt_demo 说明：
 			│      iothub_client_ll.c
 			│      iothub_message.c
 			│      
-			├─mico 									//开定时器，定时刷新NTP时间
+			├─mico 								//开定时器，定时刷新NTP时间
 			│      mico.mk
 			│      mico_time.c
 			│      mico_time.h
